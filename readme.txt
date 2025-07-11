@@ -12,6 +12,11 @@ Please scroll down for further information.
 ---- How to Use ----
 
 Copy zerovsh_patcher.prx and zerovsh.ini to your seplugins folder
+    - If you're having issues with the PSP with the plugin enabled and ClockAndCalendar = Enabled, 
+        then move the zerovsh_patcher.prx line all the way to the bottom of the SEPLUGINS/VSH.txt file.
+        - https://wololo.net/talk/viewtopic.php?p=142870#p142870
+	"I had some problems with this plugin + categories_lite and dayviewer.
+	After putting the line of zerovsh_patcher to the LAST everything was fine!" - The Z (2012)
 
 Just place all the files you want to load from your memory stick or internal storage in the 
 folder which you have RedirPath set to in zerovsh.ini (Default is (root):/PSP/VSH) and let the plugin do the rest of the work
